@@ -13,7 +13,7 @@ public class Main {
         //URL
         //URLConnection
         /*
-            http://example.com
+            http://google.com
         */
         URL url = new URL("http://finance.yahoo.com/q?s=ORCL");
         URLConnection myURL = url.openConnection();
