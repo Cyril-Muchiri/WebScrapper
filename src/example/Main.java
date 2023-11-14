@@ -10,8 +10,6 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) throws Exception
     {
-        //URL
-        //URLConnection
         /*
             http://google.com
         */
@@ -23,7 +21,6 @@ public class Main {
         Pattern r = Pattern.compile(pattern);
         while ((inputLine = in.readLine()) != null)
         {
-            //System.out.println(inputLine);
             if(inputLine.contains("yfs_l84_orcl"))
             {
                 Matcher m = r.matcher(inputLine);
